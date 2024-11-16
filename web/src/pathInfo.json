@@ -1,5 +1,11 @@
 {
-  "/src/view/about/index.vue": "About",
+  "/src/view/about/index.vue": "Index",
+  "/src/view/cinemaFilm/cinemaFilm.vue": "CinemaFilm",
+  "/src/view/cinemaFilm/cinemaFilmForm.vue": "CinemaFilmForm",
+  "/src/view/cinemaOrder/cinemaOrder.vue": "CinemaOrder",
+  "/src/view/cinemaOrder/cinemaOrderForm.vue": "CinemaOrderForm",
+  "/src/view/cinemaSeat/cinemaSeat.vue": "CinemaSeat",
+  "/src/view/cinemaSeat/cinemaSeatForm.vue": "CinemaSeatForm",
   "/src/view/dashboard/components/banner.vue": "Banner",
   "/src/view/dashboard/components/card.vue": "Card",
   "/src/view/dashboard/components/charts-content-numbers.vue": "ChartsContentNumbers",

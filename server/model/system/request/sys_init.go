@@ -1,8 +1,8 @@
 package request
 
 import (
+	"cinema/config"
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/config"
 	"os"
 )
 

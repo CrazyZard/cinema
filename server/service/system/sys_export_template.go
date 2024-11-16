@@ -2,13 +2,13 @@ package system
 
 import (
 	"bytes"
+	"cinema/global"
+	"cinema/model/common/request"
+	"cinema/model/system"
+	systemReq "cinema/model/system/request"
+	"cinema/utils"
 	"encoding/json"
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	systemReq "github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
 	"github.com/xuri/excelize/v2"
 	"gorm.io/gorm"
 	"mime/multipart"

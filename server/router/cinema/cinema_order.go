@@ -1,7 +1,7 @@
 package cinema
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/api/v1"
+	"cinema/api/v1"
 	"github.com/gin-gonic/gin"
 )
 

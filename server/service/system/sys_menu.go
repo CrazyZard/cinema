@@ -1,10 +1,10 @@
 package system
 
 import (
+	"cinema/global"
+	"cinema/model/common/request"
+	"cinema/model/system"
 	"errors"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
 	"gorm.io/gorm"
 	"strconv"
 )

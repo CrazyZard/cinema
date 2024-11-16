@@ -1,11 +1,11 @@
 package initialize
 
 import (
+	"cinema/model/example"
+	sysModel "cinema/model/system"
+	"cinema/service/system"
 	"context"
 	adapter "github.com/casbin/gorm-adapter/v3"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/example"
-	sysModel "github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	"github.com/flipped-aurora/gin-vue-admin/server/service/system"
 	"gorm.io/gorm"
 )
 

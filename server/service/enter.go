@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/service/cinema"
-	"github.com/flipped-aurora/gin-vue-admin/server/service/example"
-	"github.com/flipped-aurora/gin-vue-admin/server/service/system"
+	"cinema/service/cinema"
+	"cinema/service/example"
+	"cinema/service/system"
 )
 
 var ServiceGroupApp = new(ServiceGroup)

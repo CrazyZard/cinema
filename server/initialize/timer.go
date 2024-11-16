@@ -1,12 +1,12 @@
 package initialize
 
 import (
+	"cinema/task"
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/task"
 
 	"github.com/robfig/cron/v3"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	"cinema/global"
 )
 
 func Timer() {

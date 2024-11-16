@@ -1,11 +1,11 @@
 package cinema
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/cinema"
-	cinemaReq "github.com/flipped-aurora/gin-vue-admin/server/model/cinema/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/response"
-	"github.com/flipped-aurora/gin-vue-admin/server/service"
+	"cinema/global"
+	"cinema/model/cinema"
+	cinemaReq "cinema/model/cinema/request"
+	"cinema/model/common/response"
+	"cinema/service"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )

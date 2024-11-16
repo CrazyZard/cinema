@@ -1,8 +1,8 @@
 package email
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/email/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/email/router"
+	"cinema/plugin/email/global"
+	"cinema/plugin/email/router"
 	"github.com/gin-gonic/gin"
 )
 

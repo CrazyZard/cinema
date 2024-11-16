@@ -1,10 +1,10 @@
 package system
 
 import (
+	sysModel "cinema/model/system"
+	"cinema/service/system"
 	"context"
 	"fmt"
-	sysModel "github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	"github.com/flipped-aurora/gin-vue-admin/server/service/system"
 	"github.com/pkg/errors"
 	"gorm.io/gorm"
 )

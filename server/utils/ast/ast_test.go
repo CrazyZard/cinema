@@ -1,7 +1,7 @@
 package ast
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	"cinema/global"
 	"go/ast"
 	"go/parser"
 	"go/printer"

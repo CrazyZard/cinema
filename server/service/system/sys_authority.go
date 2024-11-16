@@ -4,12 +4,12 @@ import (
 	"errors"
 	"strconv"
 
-	systemReq "github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
+	systemReq "cinema/model/system/request"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system/response"
+	"cinema/global"
+	"cinema/model/common/request"
+	"cinema/model/system"
+	"cinema/model/system/response"
 	"gorm.io/gorm"
 )
 

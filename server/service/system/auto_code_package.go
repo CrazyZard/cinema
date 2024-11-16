@@ -1,14 +1,14 @@
 package system
 
 import (
+	"cinema/global"
+	common "cinema/model/common/request"
+	model "cinema/model/system"
+	"cinema/model/system/request"
+	"cinema/utils"
+	"cinema/utils/ast"
 	"context"
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	common "github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
-	model "github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils/ast"
 	"github.com/pkg/errors"
 	"go/token"
 	"gorm.io/gorm"

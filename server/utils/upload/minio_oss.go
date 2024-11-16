@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
+	"cinema/global"
+	"cinema/utils"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 	"go.uber.org/zap"
@@ -66,7 +66,6 @@ func (m *Minio) UploadFile(file *multipart.FileHeader) (filePathres, key string,
 		return "", "", errors.New("读取文件失败, err:" + err.Error())
 	}
 	f.Close() // 创建文件 defer 关闭
-
 
 	// 对文件名进行加密存储
 	ext := filepath.Ext(file.Filename)

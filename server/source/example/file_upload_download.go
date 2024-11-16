@@ -1,9 +1,9 @@
 package example
 
 import (
+	"cinema/model/example"
+	"cinema/service/system"
 	"context"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/example"
-	"github.com/flipped-aurora/gin-vue-admin/server/service/system"
 	"github.com/pkg/errors"
 	"gorm.io/gorm"
 )

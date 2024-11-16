@@ -1,9 +1,9 @@
 package system
 
 import (
+	model "cinema/model/system"
+	"cinema/model/system/request"
 	"context"
-	model "github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
 	"reflect"
 	"testing"
 )

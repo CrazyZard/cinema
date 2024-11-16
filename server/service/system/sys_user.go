@@ -1,15 +1,15 @@
 package system
 
 import (
+	"cinema/model/common"
+	systemReq "cinema/model/system/request"
 	"errors"
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common"
-	systemReq "github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
 	"time"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
+	"cinema/global"
+	"cinema/model/system"
+	"cinema/utils"
 	"github.com/gofrs/uuid/v5"
 	"gorm.io/gorm"
 )

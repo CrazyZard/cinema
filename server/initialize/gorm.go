@@ -3,13 +3,13 @@ package initialize
 import (
 	"os"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/example"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
+	"cinema/global"
+	"cinema/model/example"
+	"cinema/model/system"
 
+	"cinema/model/cinema"
 	"go.uber.org/zap"
 	"gorm.io/gorm"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/cinema"
 )
 
 func Gorm() *gorm.DB {

@@ -2,13 +2,13 @@ package system
 
 import (
 	"bytes"
+	"cinema/global"
+	"cinema/model/system"
+	"cinema/model/system/request"
+	"cinema/utils"
+	"cinema/utils/ast"
 	"context"
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils/ast"
 	"github.com/mholt/archiver/v4"
 	cp "github.com/otiai10/copy"
 	"github.com/pkg/errors"

@@ -1,9 +1,9 @@
 package cinema
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/cinema"
-	cinemaReq "github.com/flipped-aurora/gin-vue-admin/server/model/cinema/request"
+	"cinema/global"
+	"cinema/model/cinema"
+	cinemaReq "cinema/model/cinema/request"
 )
 
 type CinemaOrderService struct {

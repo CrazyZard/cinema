@@ -2,7 +2,7 @@
 package cinema
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	"cinema/global"
 	"time"
 )
 

@@ -1,8 +1,8 @@
 package internal
 
 import (
+	"cinema/config"
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/config"
 	"go.uber.org/zap"
 	"gorm.io/gorm/logger"
 )

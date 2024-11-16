@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	"cinema/global"
 	"gorm.io/datatypes"
 )
 

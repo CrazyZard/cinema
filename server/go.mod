@@ -1,4 +1,4 @@
-module github.com/flipped-aurora/gin-vue-admin/server
+module cinema
 
 go 1.22.0
 

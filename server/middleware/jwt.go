@@ -1,15 +1,15 @@
 package middleware
 
 import (
+	"cinema/global"
+	"cinema/utils"
 	"errors"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
 	"github.com/golang-jwt/jwt/v4"
 	"strconv"
 	"time"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/response"
-	"github.com/flipped-aurora/gin-vue-admin/server/service"
+	"cinema/model/common/response"
+	"cinema/service"
 
 	"github.com/gin-gonic/gin"
 )

@@ -1,11 +1,11 @@
 package initialize
 
 import (
+	"cinema/global"
+	"cinema/initialize/internal"
+	"cinema/utils"
 	"context"
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/initialize/internal"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
 	"github.com/pkg/errors"
 	"github.com/qiniu/qmgo"
 	"github.com/qiniu/qmgo/options"

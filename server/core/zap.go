@@ -1,10 +1,10 @@
 package core
 
 import (
+	"cinema/core/internal"
+	"cinema/global"
+	"cinema/utils"
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/core/internal"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"os"
