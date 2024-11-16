@@ -137,7 +137,7 @@ func (t *timer) AddTaskByJobWithSeconds(cronName string, spec string, job interf
 	return id, err
 }
 
-// FindTask 获取对应cronName的cron 可能会为空
+// FindCron 获取对应cronName的cron 可能会为空
 func (t *timer) FindCron(cronName string) (*taskManager, bool) {
 	t.Lock()
 	defer t.Unlock()
@@ -169,19 +169,19 @@ func (t *timer) FindCronList() map[string]*taskManager {
 }
 
 // StartCron 开始任务
-func (t *timer) StartCron(cromName string) {
+func (t *timer) StartCron(cronName string) {
 	t.Lock()
 	defer t.Unlock()
-	if v, ok := t.cronList[cromName]; ok {
+	if v, ok := t.cronList[cronName]; ok {
 		v.corn.Start()
 	}
 }
 
 // StopCron 停止任务
-func (t *timer) StopCron(cromName string) {
+func (t *timer) StopCron(cronName string) {
 	t.Lock()
 	defer t.Unlock()
-	if v, ok := t.cronList[cromName]; ok {
+	if v, ok := t.cronList[cronName]; ok {
 		v.corn.Stop()
 	}
 }

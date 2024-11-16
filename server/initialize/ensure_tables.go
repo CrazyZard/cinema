@@ -47,8 +47,11 @@ func (e *ensureTables) MigrateTable(ctx context.Context) (context.Context, error
 		sysModel.SysBaseMenuParameter{},
 		sysModel.SysBaseMenuBtn{},
 		sysModel.SysAuthorityBtn{},
-		sysModel.SysAutoCode{},
+		sysModel.SysAutoCodePackage{},
 		sysModel.SysExportTemplate{},
+		sysModel.Condition{},
+		sysModel.JoinTemplate{},
+		sysModel.SysParams{},
 
 		adapter.CasbinRule{},
 
@@ -83,8 +86,10 @@ func (e *ensureTables) TableCreated(ctx context.Context) bool {
 		sysModel.SysBaseMenuParameter{},
 		sysModel.SysBaseMenuBtn{},
 		sysModel.SysAuthorityBtn{},
-		sysModel.SysAutoCode{},
+		sysModel.SysAutoCodePackage{},
 		sysModel.SysExportTemplate{},
+		sysModel.Condition{},
+		sysModel.JoinTemplate{},
 
 		adapter.CasbinRule{},
 

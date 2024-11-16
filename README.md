@@ -1,6 +1,6 @@
 
 <div align=center>
-<img src="http://qmplusimg.henrongyi.top/gvalogo.jpg" width=300" height="300" />
+<img src="http://qmplusimg.henrongyi.top/gvalogo.jpg" width="300" height="300" />
 </div>
 <div align=center>
 <img src="https://img.shields.io/badge/golang-1.20-blue"/>
@@ -12,14 +12,24 @@
 
 [English](./README-en.md) | 简体中文
 
-## 不同版本
+## ✨一分钟生成前后端基础代码
 
-我们会对以下四个版本持续维护，请选择适合自己的版本使用。最新技术栈为组合式api版本，已支持多语言（I18N）
+<table>
+  <tr>
+    <td width="200">
+      <p>📄 创建基础模板</p>
+      <p>🤖 AI生成结构</p>
+      <p>⏰ 生成代码</p>
+      <p>🏷️ 分配权限</p>
+      <p>🎉 基础CURD生成完成</p>   
+    </td>
+    <td>
+      <video src="https://private-user-images.githubusercontent.com/165128580/384700666-4d039215-af29-4f86-bb4f-60dbab38f58e.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzEyNTIxNDYsIm5iZiI6MTczMTI1MTg0NiwicGF0aCI6Ii8xNjUxMjg1ODAvMzg0NzAwNjY2LTRkMDM5MjE1LWFmMjktNGY4Ni1iYjRmLTYwZGJhYjM4ZjU4ZS5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMTEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTExMFQxNTE3MjZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00NjJkMDcwZjJkMjAyMmU1N2I2MzQxY2RhODFlNzgzNGRiMDFhMmY2NTYyM2ZmODdhNDVmMWE1NzlhMDdlOTI5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ZJbswpLzF2RHjemcGirKOP0L1fvpl3FUqIiQ_-yjeUo" data-canonical-src="https://private-user-images.githubusercontent.com/165128580/384700666-4d039215-af29-4f86-bb4f-60dbab38f58e.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzEyNTIxNDYsIm5iZiI6MTczMTI1MTg0NiwicGF0aCI6Ii8xNjUxMjg1ODAvMzg0NzAwNjY2LTRkMDM5MjE1LWFmMjktNGY4Ni1iYjRmLTYwZGJhYjM4ZjU4ZS5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMTEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTExMFQxNTE3MjZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00NjJkMDcwZjJkMjAyMmU1N2I2MzQxY2RhODFlNzgzNGRiMDFhMmY2NTYyM2ZmODdhNDVmMWE1NzlhMDdlOTI5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ZJbswpLzF2RHjemcGirKOP0L1fvpl3FUqIiQ_-yjeUo" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px">
+</video>
+    </td>
+  </tr>
+</table>
 
-[组合式API版（主）](https://github.com/flipped-aurora/gin-vue-admin) | 
-[组合式API多语言(i18n)版](https://github.com/flipped-aurora/gin-vue-admin/tree/i18n-dev-new) | 
-[声明式API版](https://github.com/flipped-aurora/gin-vue-admin/tree/v2.4.x) | 
-[声明式API多语言(i18n)版](https://github.com/flipped-aurora/gin-vue-admin/tree/i18n-dev)
 
 # 项目文档
 [在线文档](https://www.gin-vue-admin.com) : https://www.gin-vue-admin.com
@@ -42,9 +52,11 @@
 
 3.您完全可以通过我们的教程和文档完成一切操作，因此我们不再提供免费的技术服务，如需服务请进行[付费支持](https://www.gin-vue-admin.com/coffee/payment.html)
 
-4.如果您将此项目用于商业用途，请遵守Apache2.0协议并保留作者技术支持声明。您需保留如下版权声明信息，其余信息功能不做任何限制。如需剔除请[购买授权](https://www.gin-vue-admin.com/empower/index.html)
+4.如果您将此项目用于商业用途，请遵守Apache2.0协议并保留作者技术支持声明。您需保留如下版权声明信息，以及日志和代码中所包含的版权声明信息。所需保留信息均为文案性质，不会影响任何业务内容，如决定商用【产生收益的商业行为均在商用行列】或者必须剔除请[购买授权](https://www.gin-vue-admin.com/empower/index.html)
+\
+<img src="https://qmplusimg.henrongyi.top/openSource/login.jpg" width="1000">
 
-<img src="https://qmplusimg.henrongyi.top/%E6%8E%88%E6%9D%83.png" width="1000">
+<img src="https://qmplusimg.henrongyi.top/openSource/dashboard.jpg" width="1000">
 
 ## 1. 基本介绍
 
@@ -83,7 +95,7 @@ Gin-vue-admin 的成长离不开大家的支持，如果你愿意为 gin-vue-adm
 
 ```
 - node版本 > v16.8.3
-- golang版本 >= v1.16
+- golang版本 >= v1.22
 - IDE推荐：Goland
 ```
 
@@ -101,11 +113,9 @@ cd server
 # 使用 go mod 并安装go依赖包
 go generate
 
-# 编译 
-go build -o server main.go (windows编译命令为go build -o server.exe main.go )
+# 运行
+go run . 
 
-# 运行二进制
-./server (windows运行命令为 server.exe)
 ```
 
 ### 2.2 web项目
@@ -331,10 +341,7 @@ swag init
 
 ### 7.1 技术群
 
-### QQ交流群：622360840
-| QQ 群 |
-|  :---:  |
-| <img src="http://qmplusimg.henrongyi.top/qq.jpg" width="180"/> |
+### QQ交流群：470239250
 
 ### 微信交流群
 | 微信 |
